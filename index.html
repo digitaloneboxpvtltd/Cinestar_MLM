@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineStar</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- oswald font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    
+    <!-- Inter font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    
+     <!-- font awasom link -->
+     <script src="https://kit.fontawesome.com/48b4e95150.js" crossorigin="anonymous"></script>
+
+     <!-- AOS cdn -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <!-- section heading dummy -->
+
+
+
+    <nav  class="nav_container" id="navBar">
+        <img loading="lazy"    src="assets/icon/cinestar_logo.png" alt="" class="finunity_logo" />
+
+        <!-- <div  class={`${isvisible  ?  "none" :"navIsHidden "} nav_navigation_container`}> -->
+           <div class="nav_navigation_container">
+               <a href="#navBar" id="navigation_text"><div class="nav_navigation flex" >Home</div></a>
+
+               <hr />
+
+               <a href="#aboutSection" id="navigation_text"><div class="nav_navigation flex" >About Us</div></a>
+
+               <hr />
+
+               <a href="#keyPointSection"><div class="nav_navigation flex" >Features</div></a>
+
+               <hr>
+
+               <a href="#howWorkSection"><div class="nav_navigation flex" >Working</div></a>
+             
+               <hr />
+
+               <a href="#investPlanSection"><div class="nav_navigation flex" >Investment Plans</div></a>
+
+               <hr />
+
+               <a href="#IncomeSourceSection"><div class="nav_navigation flex" >Income</div></a>
+
+               <hr />
+
+               <a href="https://cinestar.network/MemberPanel/Login.aspx"><div class="nav_navigation flex hide" >Sign In</div></a>
+              
+               <hr />
+
+               <a href="https://cinestar.network/Member-Registration.aspx"><div class="nav_navigation flex hide" >Sign Up</div></a>
+
+            </div>
+
+            <div class="nav_btn_container">
+                <div class="signIn_button" > 
+                 <a href="https://cinestar.network/MemberPanel/Login.aspx"><button>Sign In</button></a>
+                </div>
+
+                <div class="signIn_button"> 
+                    <a href="https://cinestar.network/Member-Registration.aspx"><button>Sign Up</button></a>
+                </div>
+            </div>
+            
+
+            <!-- <div class= "toggle_nav_button">
+                <i class="fa-solid fa-bars fa-xl"></i>        
+            </div> -->
+            <i id="toggle_nav_button" class="fa-solid fa-bars fa-xl"></i>   
+    </nav>
+
+    <!-- landing Page -->
+
+    <div class='Landing_page'>
+
+        <video autoPlay loop muted class='Landing_bg_video'>
+            <source src="assets/lonedrop_bg_bg.mp4" />
+            <source src="assets/lonedrop_bg_bg.webm" />
+        </video>
+
+        <img loading="lazy"   src="assets/image/Landing_bg.jpg" class='Landing_bg_img' alt="Landing_poster_bg" />
+        
+        <div class="Landing_info_container">
+          <div class="info_head">
+            <span>Cinestar:</span>
+            <p class="info">Invest in the Future of Cinema (and Yourself).</p>
+          </div>
+  
+          <h1 class="main_info">Invest in Cinestar and become a part of a revolutionary platform that's transforming the film industry.</h1>
+          
+          <div class="landing_button_container">
+            <div class="Invest_button"> 
+             <a href="https://cinestar.network/Member-Registration.aspx"><button>Invest Now</button></a> 
+            </div>
+  
+            <div class="landing_button2" id="PPT_btn"> 
+              <button>PPT</button>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+
+
+      <!-- About Page -->
+      
+      <div data-aos="fade-up" class='About_Page' id="aboutSection">
+      
+        <div class='About_content_box'>
+  
+          <div class='about_info_container'>
+              <div class='mini_heading'>About CineStar</div>
+              <div class='about_content'>
+                  <h1>Transform Your Love for Movies into a Profitable Venture -</h1>
+                  <p>In addition to these carefully curated films, Cine Star will also be
+                    introducing fresh, new projects. The NFTs for these projects will be sold
+                    before the beginning of their monetization phase, allowing investors to
+                    become owners from day one. This approach not only offers the
+                    opportunity to be part of the project at an early stage but also ensures
+                    that investors can maximize their returns as the project's monetization
+                    efforts ramp up.</p>
+              </div>
+          </div>
+  
+          <div class='about_poster_container'>
+              <img loading="lazy"   loading='lazy' src="assets/image/cinestar_about.webp" alt="poster" />
+               <!-- <div class='about_other_info'>
+                  <p>2013 <br />All Member</p>
+                  <p>12.5M <br />Average Investment</p>
+              </div>  -->
+          </div>
+  
+        </div>
+  
+      </div>
+
+
+
+      <!-- Key Points Section -->
+
+    <div class="keyPointPage" id="keyPointSection">
+        <div class="section_heading_container">
+            <div class='mini_heading'>Key Points</div>
+            <h1>Our Key Points</h1>
+            <p>Empower your crypto journey with Investment ROI - The Crypto Factory. Navigate the world of digital assets confidently.</p>
+        </div>
+
+        <div class="keyPoint_main_content">
+            <img loading="lazy"   class="KeyPoint_poster" src="./assets/image/men_piramid.webp" alt="poster">
+
+            <div class="key_points_cointer">
+                <div class="key_point">
+                    <h1>Entertainment Industry:</h1>
+                    <p>Investments in theaters, and digital platforms.</p>
+                </div>
+
+                <div class="key_point">
+                    <h1> Business Ventures:</h1>
+                    <p>Many stars launch their own brands, products, or businesses.</p>
+                </div>
+
+                <div class="key_point">
+                    <h1>Brand Endorsements:</h1>
+                    <p>Partnerships with various brands generate significant income.</p>
+                </div>
+
+                <div class="key_point">
+                    <h1> Financial Advisors:</h1>
+                    <p>Employing financial advice is crucial for managing wealth.</p>
+                </div>
+
+                <!-- <div class="key_point">
+                    <h1> Long-term Perspective:</h1>
+                    <p> Building wealth often requires patience and strategic planning.</p>
+                </div> -->
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- how it work section -->
+
+    <div class="HowWorkPage" id="howWorkSection">
+        <div class="section_heading_container">
+            <div class='mini_heading'>Working</div>
+            <h1>How It Works</h1>
+            <p>Empower your crypto journey with Investment ROI - The Crypto Factory. Navigate the world of digital assets confidently.</p>
+        </div>
+
+        <div class="HowWork_main_content">
+
+            <div class="Howwork_points_cointer">
+                <div class="HowWork_point">
+                   <div class="point_number">01</div>
+                   <div class="PointInfo_box">
+                       <h1>Register & Login</h1>
+                       <p>Visit our website and sign up for an account</p>
+                   </div>
+                </div>
+
+                <div class="HowWork_point">
+                    <div class="point_number">02</div>
+                    <div class="PointInfo_box">
+                     <h1>Choose a Package</h1>
+                     <p>Select from our range of packages</p>
+                    </div>
+                 </div>
+
+                 <div class="HowWork_point">
+                    <div class="point_number">03</div>
+                    <div class="PointInfo_box">
+                     <h1>Deposit Funds</h1>
+                     <p>Make your initial investment</p>
+                    </div>
+                 </div>
+
+                 <div class="HowWork_point">
+                    <div class="point_number">04</div>
+                    <div class="PointInfo_box">
+                     <h1>Start Earning</h1>
+                     <p>Begin earning daily ROI</p>
+                    </div>
+                 </div>
+
+            </div>
+            
+            <img loading="lazy"   class="howWork_poster" src="./assets/image/red_lapy_man.webp" alt="poster">
+
+        </div>
+        
+
+    </div>
+
+
+
+
+    <!-- Subsription info section -->
+
+    <div class="subscriptionPage">
+        <div class="section_heading_container">
+            <div class='mini_heading'>Subscription</div>
+            <h1>Subscription Info.</h1>
+            <p> Subscription Amount $10 , 50% Distribution in team</p>
+        </div>
+
+        <div class="subscription_main_content">
+           
+            <img loading="lazy" class="subscription_poster" src="./assets/image/seat_light.webp" alt="logo">
+            
+            <div class="Subscription_info_container">
+                    <div class="sub_point">1st Level:15%</div>
+                    <div class="sub_point">2nd Level:10%</div>
+                    <div class="sub_point">3rd Level:5%</div>
+                    <div class="sub_point">4th Level:3%</div>
+                    <div class="sub_point">5th-7th Level:2%</div>
+                    <div class="sub_point">8th-12th Level:1%</div>
+                    <div class="sub_point">13th-15th Level:2%</div>
+                    <!-- <div class="sub_point">15th Level:2%</div> -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- investment plan section -->
+
+    <div class="InvestmentPlanPage" id="investPlanSection">
+        <div class="section_heading_container">
+            <div class='mini_heading'>Invest Offer</div>
+            <h1>Invest With Confidence At Cinestar</h1>
+            <p> Explore unique investments in Blockchain Technology, AI, and the Metaverse at Cinestar. Diversify for innovation.</p>
+        </div>
+
+        <div class="Investment_plan_container">
+
+            <div class="Investment_plan_box">
+                <p class="plan_price">100$ to 999$</p>
+                <div class="plan_other_info">
+                    <p> Up to 8% - (250%)</p>
+                </div>
+                <button class="invest_button">INVEST NOW</button>
+            </div>
+
+            <div class="Investment_plan_box">
+                <p class="plan_price">1000$ to 4999$</p>
+                <div class="plan_other_info">
+                    <p>Up to 12% - (300%)</p>
+                </div>
+                <button class="invest_button">INVEST NOW</button>
+            </div>
+
+
+            <div class="Investment_plan_box">
+                <p class="plan_price">5000$ to 19000$</p>
+                <div class="plan_other_info">
+                    <p> Up to 13% - (325%)</p>
+                </div>
+                <button class="invest_button">INVEST NOW</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Income Source style -->
+
+    <div class="IncomeSourcePage" id="IncomeSourceSection">
+        <div class="section_heading_container">
+            <div class='mini_heading'>Income</div>
+            <h1>Income Source</h1>
+            <p>Explore unique investments in Blockchain Technology, AI, and the Metaverse at Cinestar. Diversify for innovation.</p>
+        </div>
+
+        <div class="Income_main_content">
+            <div class="income_sources">
+                <div>Sponsor Income : <span>&nbsp;5% (One Time)</span></div>
+                <div>Generation Income Up to <span> &nbsp;25th Level</span></div>
+            </div>
+
+            <img loading="lazy" src="./assets/image/income_roundd.webp" alt="">
+
+        </div>
+    </div>
+
+
+
+    <!-- level opening section -->
+
+    <div class="LevelOpeningPage" id="lavelOpeningSection">
+        <div class="section_heading_container">
+            <div class='mini_heading'>Levels</div>
+            <h1>Level Opening</h1>
+            <p>Level Opening Criteria</p>
+        </div>
+        <img loading="lazy" src="./assets/image/Level_opening_table.webp" alt="level opening chart">
+    </div>
+
+
+
+    <!--Salary plane section -->
+
+    <div class="SalaryPlanePage" id="salaryPlanSection">
+        <div class="section_heading_container">
+            <div class='mini_heading'>Salary</div>
+            <h1>Salary Plan</h1>
+        </div>
+
+        <div class="salaryPlane_container">
+
+            <div class="salary_plane_box">
+                <h1> 15 ID OF 100$ = 1500$</h1>
+                <p> 40$ Per Month x 10 Month</p>
+            </div>
+
+            <div class="salary_plane_box">
+                <h1> 31 ID Of 100$ = 3100 $</h1>
+                <p> Salary 100$ Per Month x 10 Month  [Condition 500$ Business Compulsory in Team Per  Month]</p>
+            </div>
+
+            <div class="salary_plane_box">
+                <h1> 31 ID Of 200$ = 6200$</h1>
+                <p> Salary 200$ Per Month x 10 Month  (800$ Per Month Business in Team)</p>
+            </div>
+
+            <div class="salary_plane_box">
+                <h1>  63 ID of 100$ = 6300$</h1>
+                <p>  Salary 220$ Per Month x 10 Month  (Condition 1000$ Business Team per Month)</p>
+            </div>
+
+            <div class="salary_plane_box">
+                <h1>  63 ID Of 200$ = 12600 $</h1>
+                <p> Salary 400 $ Per Month x 10 Month  Rewards & Bonanza On Matching</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- foooter -->
+    <footer>
+        <div class="footer_main_content">
+            <div class="footer_info">
+                <img loading="lazy" src="./assets/icon/cinestar_logo.png" alt="cinestar logo">
+                <p>Invest in Cinestar and become a part of a revolutionary platform that's transforming the film industry.</p>
+    
+                <div class="Invest_button"> 
+                    <a href="https://cinestar.network/Member-Registration.aspx"><button>Invest Now</button></a>
+                </div>
+            </div>
+    
+            
+            <div class="footer_otherInfo">
+                <div class="contact_info">
+                    <p>Contact</p>
+                    <a href="" >support@cinstar.io</a>
+                </div>
+                <div class="social_info">
+                    <p>Follow Us</p>
+                    <div class="social_media_icon">
+                        <img src="./assets/icon/instaRed.png" alt="insta_logo">
+                        <img src="./assets/icon/telegram_red.png" alt="telegram_logo">
+                        <img src="./assets/icon/twit_red.png" alt="twit_logo">
+                        <img src="./assets/icon/facebook_red.png" alt="facebook_logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright_box">
+            <div>@2024. All rights reserved </div>
+            <div class="term_condition_box">
+                <div>Terms & Agreements</div>
+                <div>Privacy Policy</div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+<!-- GSAP CDN -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="script.js"></script>
+    <script src="AnimationScript.js"></script>
+</body>
+</html>
